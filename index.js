@@ -32,7 +32,7 @@ var carritoVisible = false;
       console.log(precioElemento);
       var precio = parseFloat(precioElemento.innerText.replace("$","").replace(".",""));
       console.log(precio);
-      var cantidadItem = item.getElementsByClassName("carrtito-items-cantidad")[0];
+      var cantidadItem = item.getElementsByClassName("carrito-item-cantidad")[0];
       var cantidad = cantidadItem.value;
       console.log(cantidad);
       total = total + (precio * cantidad);
